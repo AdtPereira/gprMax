@@ -1,0 +1,27 @@
+#title: Acoplamento de campo externo em linha de transmissão (modo TMz)
+#domain: 650 150 110
+#dx_dy_dz: 5 5 5
+#time_window: 5e-6
+
+
+PEC Soil
+#plate: 0 0 0 650 150 0 pec
+
+
+Transmission Line
+x-directed pec single wire
+#edge: 100 75 10 550 75 10 pec
+
+
+Allows you to introduce a single output points into the model.
+#rx: 100 75 10 source_end Ez
+#rx: 550 75 10 load_end Ez
+
+Provides a simple method of defining multiple output points in the model. 
+#rx_array: 100 75 10 550 75 10 10 0 0 
+
+
+#pml_cells: 2 2 0 2 2 2
+
+
+#geometry_view: 0 0 0 650 150 110 5 5 5 lossless_tl_open n

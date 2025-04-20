@@ -1,0 +1,12 @@
+#title: A-scan from a metal cylinder in a free space
+#domain: 0.240 0.210 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 3e-9
+
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.100 0.170 0 my_ricker
+#rx: 0.140 0.170 0
+
+#cylinder: 0.120 0.080 0 0.120 0.080 0.002 0.010 pec
+
+#geometry_view: 0 0 0 0.240 0.210 0.002 0.002 0.002 0.002 my_cylinder_half_space n
