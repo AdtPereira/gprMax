@@ -1,18 +1,19 @@
 #title: 40-m long single wire buried into high resistivity soil
 #domain: 180 150 80
-#dx_dy_dz: 1 1 1
+#dx_dy_dz: 1 1 1 
 #time_window: 5e-6
 
 #material: 10 0.0004 1 0 half_space
 
-#excitation_file: double_exponential.txt
+#excitation_file: double_exponential_a.txt
 #hertzian_dipole: x 90 75 48 double_exp
 
 #edge: 50 75 48 130 75 48 pec
-#edge: 89 75 48 91 75 48 free_space
 
-rx_array: 90 75 10 90 75 48 0 0 1
-#rx: 90 75 48
+#rx: 90 75 47
+#rx: 90 76 48
+#rx: 90 75 49
+#rx: 90 74 48
 
 #box: 0 0 0 180 150 50 half_space
 
